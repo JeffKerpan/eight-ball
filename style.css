@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.eight-ball {
+  border-radius: 50%;
+  width: 500px;
+  height: 500px;
+  background-color: black;
+  opacity: .9;
+  position: relative;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  background-color: gray;
+  opacity: .7;
+  position: absolute;
+  /*transparent;*/
+}
+
+.triangle {
+  /*background-color: white;*/
+  /*width: 100px;
+  height: 50px;*/
+  top: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-style: solid;
+  border-color: white transparent transparent;
+  border-width: 20vh 0vh 0 10vh;
+}
+
+.c-col {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
